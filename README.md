@@ -3,7 +3,7 @@ Graph Neural Networks (GNNs) are powerful tools for modeling graph structures, a
 
 This project proposes a new aggregation method that combines information from both neighboring nodes and distant nodes with high similarity, aiming to improve the performance of existing MPNN models. Evaluation results on multiple datasets demonstrate the potential of this method.
 
-Dependencies
+\textbf{Dependencies}
 
 Compatible with PyTorch 1.12.1 and Python 3.9.13.
 
