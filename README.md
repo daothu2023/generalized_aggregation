@@ -16,3 +16,16 @@ This project utilizes the PTC, MUTAG, NCI1, DHFR, COX2, Proteins, and DD dataset
 These datasets are automatically downloaded and preprocessed via TUDataset. You do not need to manually download them; the code will handle this automatically when you run the training commands.
 
 **Training model**
+
+To train the models, you can use the following scripts corresponding to different methods:
+
+- **GAT_kfold.py**: Runs the standard Graph Attention Network (GAT) method with k-fold cross-validation.
+- **GCN_kfold.py**: Runs the standard Graph Convolutional Network (GCN) method with k-fold cross-validation.
+- **GIN_kfold.py**: Runs the standard Graph Isomorphism Network (GIN) method with k-fold cross-validation.
+- **GCN_kfold_WL.py**: Runs the GCN method with Weisfeiler-Lehman (WL) kernel with k-fold cross-validation.
+- **GIN_kfold_WL.py**: Runs the GIN method with Weisfeiler-Lehman (WL) kernel with k-fold cross-validation.
+- **GAT_kfold_WL.py**: Runs the GAT method with Weisfeiler-Lehman (WL) kernel with k-fold cross-validation.
+- **GCN_kernel(MEDK_NSPDK_RLK).py**: Runs the GCN method with MEDK, NSPDK, and RLK kernels.
+- **GIN_kernel(MEDK_NSPDK_RLK).py**: Runs the GIN method with MEDK, NSPDK, and RLK kernels.
+- **GAT_kernel(MEDK_NSPDK_RLK).py**: Runs the GAT method with MEDK, NSPDK, and RLK kernels.
+- **PGC_GCN.py**: Runs the PGC_GCN method.
